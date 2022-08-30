@@ -1,4 +1,5 @@
-export default function front(element, type) {
-  element.map();
-  console.log(element);
+export default function front(arr) {
+  arr.map(function (type) {
+    document.createElement(type);
+  });
 }
