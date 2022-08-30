@@ -1,5 +1,6 @@
 import front from "./index-front.js";
-// import back from "./index-minus.js";
+import back from "./index-back.js";
+const body = document.body;
 
 // 프론트엔드 미션: 배열의 갯수만큼 <li>태그로 연출하기
 // 백엔드 미현: 문자열마다 "님"이라는 단어를 붙여서 가공하기
@@ -17,3 +18,7 @@ const digimon = [
 ];
 
 front(digimon, "li");
+
+back(digimon, "님");
+
+// console.log(digimon);
